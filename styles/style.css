@@ -1,23 +1,85 @@
-*{
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/*header*/
-header {
-background-color: darkorange;
-color: rgb(255, 255, 255);
-padding: 1em;
-width:100%;
-text-align: center;
+:root {
+  --primaryColor: #ff6e0c;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*body*/
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  width: 100%;
+  margin: 0;
 }
+
+header > section {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  width: 110px;
+}
+
+header > section button:first-of-type {
+  width: 35px;
+  margin-top: 0;
+}
+
+main section img {  
+  width: 100px;  
+  height: auto;  
+  display: flex;
+  margin: auto;
+  padding: 1em 1em;
+  }
+
+ figure:nth-of-type(2) {
+    display:flex;
+    justify-content:space-between;
+  }
+  
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/*header*/
+header {
+color: rgb(255, 255, 255);
+width:100%;
+text-align: center;
+border-radius
+}
+
+header > section:first-child {
+background-color: var(--primaryColor);
+height: 2.2em;
+justify-content: center;
+}
+
+header button img {
+width: 80%;
+}
+
+header button {
+border: none;
+background-color: whitesmoke;
 
 /*boventekst*/
 section h1:first-of-type{
@@ -29,23 +91,23 @@ color: red;
 }
 
 section:first-of-type{
-  border-radius: 100px;
-  background-color: rgb(207, 159, 99);
+border-radius: 100px;
+position: relative;
 }
 
 section:nth-of-type(2){
-  border-radius: 100px;
-  background-color: pink;
+border: 100px;
+background-color: white;
 }
 
 section:nth-of-type(4){
-  border-radius: 100px;
-  background-color: lightblue;
+border-radius: 100px;
+background-color: lightblue;
 }
 
 section:nth-of-type(6){
-  border-radius: 100px;
-  background-color: rgb(199, 199, 199);
+border-radius: 100px;
+background-color: rgb(199, 199, 199);
 }
 
 
