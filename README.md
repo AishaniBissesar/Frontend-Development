@@ -22,7 +22,7 @@ Aishani Bissesar
 Blauw
 
 #### Je focus:
-responsive
+Responsive
  
 </details>
 
