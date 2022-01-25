@@ -40,7 +40,9 @@ https://www.dunkin.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 startpagina  
+
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img width="386" alt="Screenshot 2022-01-25 at 23 26 52" src="https://user-images.githubusercontent.com/94417167/151070335-f104cbcb-6150-4aeb-9de5-6686840f5f77.png">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 contactpagina  
