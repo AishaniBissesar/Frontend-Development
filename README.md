@@ -47,6 +47,8 @@ startpagina
 #### Screenshot(s) van de tweede pagina (small screen):
 contactpagina  
 <img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+<img width="393" alt="Screenshot 2022-01-25 at 23 30 56" src="https://user-images.githubusercontent.com/94417167/151070722-26948252-adb1-4f01-ae97-5ca06244b722.png">
+
  
 </details>
 
