@@ -145,8 +145,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### SCREENREADER
+De tekst wordt voorgelezen met een 'Engels accent', waardoor nederlandse woorden niet goed worden uitgesproken. Dit kan leiden tot verwarring. Er wordt snel gesproken, als je iets mist moet je alles opnieuw beluisteren.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
