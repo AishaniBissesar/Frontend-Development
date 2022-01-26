@@ -151,22 +151,26 @@ De tekst wordt voorgelezen met een 'Engels accent', waardoor nederlandse woorden
 Oplossing: Er voor zorgen dat de gebruiker de juiste taal kan kiezen, zodat alles wordt voorgelezen door, in dit geval, een nederlands persoon. Daarnaast ook de snelheid kunnen aanpassen en in plaats van alles achter elkaar de audio in delen verdelen.
 
 
-#### Bril, in het midden blind
+#### Bril: in het midden blind
 Je ziet helemaal niets inhet midden, behalve aan de randen. Je gaat dichter bij het scherm staan.
 
 Oplossing: Niet alle tekst in het midden en klein geschreven, maar ook gebruik maken van de ruimte er om heen.
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Gele bril
+Oranje op het scherm wordt licht roze. Bijna alles wordt roze. Blauw wordt turquoise. Roze blijft roze.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Oplossing: Is niet een groot probleem, maar misschien meer contrast.
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Parkinson
+Moeilijk handen onder controle te houden.
+ 
+Het kan helpen om knoppen groter te maken en niet te dicht op elkaar te zetten.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+
+#### Wazige bril
+De 'Dunkin' en 'Bestel' kan je alleen lezen wanneer je je hoofd beweegt. Contrast is goed (donker roze, lichte kleuren, witte streep, google play, zwart op wit). Paragraphs lukken niet. Instagram is gewoon een vierkantje, je ziet niet dat het Instagram is.
 
 </details>
 
