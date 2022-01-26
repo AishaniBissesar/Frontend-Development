@@ -57,6 +57,8 @@ contactpagina
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de hele pagina: 
+<img width="155" alt="Screenshot 2022-01-26 at 01 59 51" src="https://user-images.githubusercontent.com/94417167/151085519-4e6f6a9c-235c-43fa-a1cb-afd3c6751857.png">
+
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
