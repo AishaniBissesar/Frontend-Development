@@ -8,16 +8,23 @@
 
 :root {
   --primaryColor: #ff6e0c;
+  --accent-color:rgb(134, 73, 76);
+  --accent-background-color: #ebaecf;
 }
 
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*body*/
 body {
   width: 100%;
-  margin: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 header > section {
@@ -25,13 +32,20 @@ header > section {
   align-items: center;
 }
 
-header img {
-  width: 110px;
+header > section:first-child {
+  background-color: var(--primaryColor);
+  height: 2.2em;
+  justify-content: center;
 }
 
-header > section button:first-of-type {
-  width: 35px;
-  margin-top: 0;
+header > section:last-child {
+  background-color: rgb(255, 255, 255);
+  height: 3em;
+  justify-content: space-around;
+}
+
+header img {
+  width: 110px;
 }
 
 main section img {  
@@ -40,74 +54,173 @@ main section img {
   display: flex;
   margin: auto;
   padding: 1em 1em;
-  }
-
- figure:nth-of-type(2) {
-    display:flex;
-    justify-content:space-between;
-  }
-  
-
-
-
-
-
-
-body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
 }
-
-/*header*/
-header {
-color: rgb(255, 255, 255);
-width:100%;
-text-align: center;
-border-radius
-}
-
-header > section:first-child {
-background-color: var(--primaryColor);
-height: 2.2em;
-justify-content: center;
-}
-
-header button img {
-width: 80%;
+main li:nth-of-type(1) section img:hover{
+  transform: skewY(20deg);
 }
 
 header button {
-border: none;
-background-color: whitesmoke;
-
-/*boventekst*/
-section h1:first-of-type{
-color: darkorange;
+  border: none;
+  background-color: whitesmoke;
+  height: 1.5em;
+  padding: 12px 6px;
+  border-radius: 1em;
+  /* line-height: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-section h2:first-of-type{
-color: red;
+header > section button:first-of-type {
+  width: 35px;
 }
 
-section:first-of-type{
-border-radius: 100px;
-position: relative;
+header button img {
+  width: 60%;
 }
 
-section:nth-of-type(2){
-border: 100px;
-background-color: white;
+#banner {
+  background-color: #ddbd8e;
+  width: 290px;
+  height: 3200px;
+  margin: 0 auto;
+  border-radius: 1.5em;
+  position: relative;
 }
 
-section:nth-of-type(4){
-border-radius: 100px;
-background-color: lightblue;
+#banner h1 {
+  color: white;
+  text-align: center;
 }
 
-section:nth-of-type(6){
-border-radius: 100px;
-background-color: rgb(199, 199, 199);
+#banner figure {
+  /* border: 2px dashed red; */
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+}
+
+#banner figure img {
+  position: absolute;
+  transition: 2s;
+}
+
+#banner figure img:nth-last-of-type(odd) {
+  width: 45%;
+  bottom: -30%;
+}
+
+#banner:hover figure img:nth-last-of-type(odd) {
+  width: 45%;
+  bottom: -20%;
+}
+
+#banner figure img:first-of-type {
+  left: 5%;
+}
+
+#banner figure img:nth-last-of-type(2) {
+  width: 50%;
+  bottom: -35%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+#banner:hover img:nth-last-of-type(2) {
+  width: 55%;
+  bottom: -25%;
+}
+
+#banner figure img:last-of-type {
+  right: 5%;
+}
+
+#banner > img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style-type: disc;
+  position: relative;
+}
+
+main li:nth-of-type(1) section {
+  background-color: #b16f0c(226, 182, 110);
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  padding: 1em 1em
+}
+
+.background{
+  border: 1px solid black;
+  background: url(img_flwr.gif);
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+  padding: 15px;
+
 }
 
 
+main li:nth-of-type(1) section{
+  background-color: #ddbd8e;
+}
+
+main h1 {
+  text-align: center;
+}
+
+main h2 {
+  text-align: center;
+}
+
+main h3 {
+  text-align: center;
+}
+
+main p {
+  text-align: center;
+}
+
+main li {
+  text-align: center;
+}
+
+
+main button {
+  text-align: center;
+  border: none;
+  background-color: whitesmoke;
+  height: 1.5em;
+  padding: 12px 6px;
+  border-radius: 1em;
+  /* line-height: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer p {
+  text-align: center;
+  border: none;
+  background-color: #ff6e0c;
+  height: 1.5em;
+  padding: 12px 6px;
+  border-radius: 1em;
+  /* line-height: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
