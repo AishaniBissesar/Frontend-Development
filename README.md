@@ -145,16 +145,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-#### SCREENREADER
+#### Screenreader
 De tekst wordt voorgelezen met een 'Engels accent', waardoor nederlandse woorden niet goed worden uitgesproken. Dit kan leiden tot verwarring. Er wordt snel gesproken, als je iets mist moet je alles opnieuw beluisteren.
  
 Oplossing: Er voor zorgen dat de gebruiker de juiste taal kan kiezen, zodat alles wordt voorgelezen door, in dit geval, een nederlands persoon. Daarnaast ook de snelheid kunnen aanpassen en in plaats van alles achter elkaar de audio in delen verdelen.
 
 
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Bril, in het midden blind
+Je ziet helemaal niets inhet midden, behalve aan de randen. Je gaat dichter bij het scherm staan.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+Oplossing: Niet alle tekst in het midden en klein geschreven, maar ook gebruik maken van de ruimte er om heen.
 
 
 #### Titel volgende bevinding. 
