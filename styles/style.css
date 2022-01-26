@@ -1,3 +1,4 @@
+/* CSS Document */
 *,
 *::before,
 *::after {
@@ -6,12 +7,17 @@
   box-sizing: border-box;
 }
 
+/******************************/
+/* ALGEMENE CUSTOM PROPERTIES */
+/******************************/
+/* Gepersonaliseerde kleuren */
 :root {
   --primaryColor: #ff6e0c;
   --accent-color:rgb(134, 73, 76);
   --accent-background-color: #ebaecf;
 }
 
+/* Algemene properties */
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -44,10 +50,12 @@ header > section:last-child {
   justify-content: space-around;
 }
 
+/*Het logo*/
 header img {
   width: 110px;
 }
 
+/* Eerste coffee img */
 main section img {  
   width: 100px;  
   height: auto;  
@@ -145,6 +153,7 @@ header button img {
   height: 100%;
 }
 
+/* Lijst van onderdelen*/
 ul{
   margin:0;
   padding:0;
@@ -152,6 +161,7 @@ ul{
   position: relative;
 }
 
+/* Onderdeel 1 */
 main li:nth-of-type(1) section {
   background-color: #b16f0c(226, 182, 110);
   border-radius: 25px;
