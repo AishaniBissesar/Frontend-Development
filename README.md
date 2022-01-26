@@ -147,8 +147,8 @@ Lijst met je bevindingen die in de test naar voren kwamen:
 
 #### SCREENREADER
 De tekst wordt voorgelezen met een 'Engels accent', waardoor nederlandse woorden niet goed worden uitgesproken. Dit kan leiden tot verwarring. Er wordt snel gesproken, als je iets mist moet je alles opnieuw beluisteren.
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+ 
+Oplossing: Er voor zorgen dat de gebruiker de juiste taal kan kiezen, zodat alles wordt voorgelezen door, in dit geval, een nederlands persoon. Daarnaast ook de snelheid kunnen aanpassen en in plaats van alles achter elkaar de audio in delen verdelen.
 
 
 #### Titel tweede bevinding. 
